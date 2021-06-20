@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:armor_stand",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{CustomNameVisible:1b,Small:1b,Invisible:1b,NoGravity:1b,NoBasePlate:0b,Tags:[\"Timer\"],DisabledSlots:4144959,CustomName:'{\"text\":\"00:00\"}'}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
