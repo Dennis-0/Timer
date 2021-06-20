@@ -1,3 +1,6 @@
+## Pause timer
+# run from timer:main
+
 schedule clear timer:second
 
 execute if score $min timer matches 10.. if score $sec timer matches 10.. run bossbar set timer name [{"text":"Timer paused! - "},{"score":{"name":"$min","objective":"timer"}},{"text":":"},{"score":{"name":"$sec","objective":"timer"}}]

@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{EntityTag:{CustomNameVisible:1b,Small:1b,Invisible:1b,NoGravity:1b,NoBasePlate:0b,Tags:[\"Timer\"],DisabledSlots:4144959,CustomName:'{\"text\":\"00:00\"}'}}"
+              "tag": "{EntityTag:{Tags:[\"place_timer\"],Marker:1b,Invisible:1b,NoGravity:1b,Small:1b,DisabledSlots:4144959},display:{Name:'{\"text\":\"Timer\"}'},Enchantments:[{}]}"
             }
           ]
         }
