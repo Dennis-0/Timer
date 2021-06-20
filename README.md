@@ -20,3 +20,6 @@ or: `/scoreboard players set #duration timer <minutes>` and `/function timer:sta
 Command: `/function timer:pause` and `/function timer:continue` 
 
 - Remove a timer by punching it in creative mode
+
+- Disable/enable bossbar and actionbar
+Command: `/scoreboard players set $bossbar/$actionbar timer 0/1`
