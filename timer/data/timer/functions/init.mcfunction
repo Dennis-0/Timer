@@ -5,6 +5,8 @@ scoreboard players enable @a[tag=timer_control] start_timer
 
 scoreboard players set #minute timer 60
 scoreboard players set #duration timer 10
+scoreboard players set $actionbar timer 1
+scoreboard players set $bossbar timer 1
 
 bossbar add timer {"text":"00:00"}
 bossbar set timer color white
