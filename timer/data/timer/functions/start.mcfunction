@@ -1,7 +1,7 @@
 ## Start timer
 # run from timer:main
 
-execute if score @s start_timer matches 0 run scoreboard players operation $total_sec timer = #duration timer
+execute unless score @s start_timer matches 1.. run scoreboard players operation $total_sec timer = #duration timer
 execute if score @s start_timer matches 1.. run scoreboard players operation $total_sec timer = @s start_timer
 scoreboard players operation $total_sec timer *= #minute timer
 
