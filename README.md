@@ -1,5 +1,5 @@
 # Timer
-Minecraft Datapack for a timer, as floating text and bossbar
+Minecraft Datapack for a timer, as floating text, actionbar, and bossbar
 
 ## How to set up
 1.  - Place a sign where normal players can't see (in a chunk that's always loaded, or use `forceload`)
@@ -19,7 +19,12 @@ or: `/scoreboard players set #duration timer <minutes>` and `/function timer:sta
 - If needed, the timer can be paused and continued later on <br>
 Command: `/function timer:pause` and `/function timer:continue` 
 
-- Remove a timer by punching it in creative mode
+- If needed, the timer can be reset <br>
+Command: `/function timer:stop` 
 
-- Disable/enable bossbar and actionbar
+- Remove the timers <br>
+Command: `/function timer:remove` (only removes nearest) <br>
+or: `/kill @e[type=minecraft:area_effect_cloud,tag=timer]`
+
+- Disable/enable bossbar and actionbar <br>
 Command: `/scoreboard players set $bossbar/$actionbar timer 0/1`
