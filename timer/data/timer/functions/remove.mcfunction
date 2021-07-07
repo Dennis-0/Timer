@@ -1,4 +1,3 @@
 ## Remove timer
-# run from player
 
-kill @e[type=armor_stand,tag=timer,sort=nearest,limit=1]
+kill @e[type=area_effect_cloud,tag=timer,sort=nearest,limit=1]

@@ -1,5 +1,4 @@
 ## Pause timer
-# run from timer:main
 
 schedule clear timer:second
 

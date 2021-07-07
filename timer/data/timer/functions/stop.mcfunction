@@ -1,5 +1,4 @@
 ## Continue timer
-# run from timer:main
 
 schedule clear timer:second
 scoreboard players set $total_sec timer 0

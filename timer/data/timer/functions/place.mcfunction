@@ -1,4 +1,3 @@
 ## Place timer
-# run from timer:main
 
-summon armor_stand ~ ~ ~ {Marker:1b,Invisible:1b,Small:1b,Tags:["timer"],Team:"timer",CustomNameVisible:1b,CustomName:'{"text":"00:00"}',DisabledSlots:4144959}
+summon minecraft:area_effect_cloud ~ ~ ~ {Particle:"end_rod",Tags:["timer"],Duration:1000000000,Rotation:[0.0F,90.0F],Radius:0f,CustomName:'{"text":"00:00"}',CustomNameVisible:1b}

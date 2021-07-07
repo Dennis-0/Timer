@@ -5,11 +5,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:armor_stand",
+          "name": "minecraft:ghast_spawn_egg",
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{EntityTag:{Tags:[\"timer\"],Marker:1b,Invisible:1b,NoGravity:1b,Small:1b,CustomNameVisible:1b,CustomName:'{\"text\":\"00:00\"}',DisabledSlots:4144959,Pose:{Head:[180f,0f,0f],LeftLeg:[180f,0f,0f],RightLeg:[180f,0f,0f]}},display:{Name:'{\"text\":\"Timer\"}'},Enchantments:[{}]}"
+              "tag": "{EntityTag:{id:\"minecraft:area_effect_cloud\",Particle:\"end_rod\",Tags:[\"timer\"],Duration:1000000000,Rotation:[0.0F,90.0F],Radius:0f,CustomName:'{\"text\":\"00:00\"}',CustomNameVisible:1b},display:{Name:'{\"text\":\"Timer\"}'},Enchantments:[{}]}"
             }
           ]
         }
